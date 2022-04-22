@@ -8,7 +8,7 @@ typedef void SceneCreatedCallback(Scene scene);
 class Cube extends StatefulWidget {
   Cube({
     Key? key,
-    this.interactive = true,
+    this.interactive = false,
     this.onSceneCreated,
     this.onObjectCreated,
   }) : super(key: key);
